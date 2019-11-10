@@ -16,6 +16,6 @@ public void create(EjemplarBean ejemplar) {
 		entityManager.getTransaction().begin();
 		entityManager.persist(ejemplar);
 		entityManager.getTransaction().commit();
-		entityManager.close();  
+		entityManager.close();   
 	}
 }
