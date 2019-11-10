@@ -17,6 +17,6 @@ public void create(AutorBean autor) {
 		entityManager.persist(autor);
 		entityManager.getTransaction().commit();
 		entityManager.close();  
-	}
+	} 
 
 }
