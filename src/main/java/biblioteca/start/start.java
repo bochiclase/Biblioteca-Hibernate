@@ -38,7 +38,7 @@ public class start {
 		user1.setTelefono("123123123");
 		user1.setDireccion("Oviedo");
 		user1.addPrestamos(sacar1);
-		
+		 
 		
 		UsuarioBean user2 = new UsuarioBean();
 		user2.setCodigo(2);
